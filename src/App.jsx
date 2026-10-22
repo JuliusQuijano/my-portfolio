@@ -12,7 +12,7 @@ function App() {
         <div className="nav-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <a href="#projects">Description</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -36,8 +36,8 @@ function App() {
 
           <p className="description">
             A student and cadet officer who values
-            discipline, leadership, teamwork, and
-            continuous personal growth.
+            discipline, leadership, teamwork, and responsibility.
+             I am committed to continuous learning and personal growth.
           </p>
 
           <a href="#about" className="button">
@@ -54,16 +54,25 @@ function App() {
         <h2>About Me</h2>
 
         <p className="about-text">
-          I am Julius B Quijano, a student and cadet officer
+          I am Julius B Quijano, a student and cadet officer in Batangas State University,
+          Balayan Campus. I am a dedicated individual
           who believes in discipline, respect, and responsibility.
           I continue to develop my skills.
         </p>
+
+      <div className="about-details">
+        <h1 className='q'> ~ Student and Cadet Officer</h1>
+        <h2 className='w'> ~ I am 20 years old</h2>
+        <h3 className='e'> ~ live in Balayan, Batangas</h3>
+
+        </div>
+  
       </section>    
 
       {/* Projects */}
       <section id="projects" className="section projects-section">
-        <p className="section-label">MY WORK</p>
-        <h2>Projects</h2>
+        <p className="section-label">MY</p>
+        <h2>DESCRIPTION</h2>
 
         <div className="project-list">
 
@@ -94,8 +103,9 @@ function App() {
             <div>
               <h3>ROTC</h3>
               <p>
-                Activities focused on discipline, teamwork,
-                responsibility, and leadership.
+                Reserve Officers' Training Corps (ROTC) is 
+                a program that helps me develop my leadership, 
+                discipline, and teamwork skills.
               </p>
             </div>
           </div>
@@ -105,7 +115,7 @@ function App() {
             <div>
               <h3>BE ONE OF US</h3>
               <p>
-                joining the ROTC program has helped me develop my Leadership skills, dicipline,
+                Joining the ROTC program has helped me develop my Leadership skills, dicipline,
                 and teamwork skills. 
               </p>
             </div>
@@ -133,7 +143,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        <p>© 2026 JULIUS B QUIJANO</p>
+        <p>© ROTC CLASS 2024 - 2027 </p>
         <p>CADET OFFICER</p>
       </footer>
 

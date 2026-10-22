@@ -139,6 +139,30 @@ section {
   line-height: 2;
 }
 
+.q{
+  max-width: 750px;
+  color: #666666;
+  font-size: 25px;
+  line-height: 3;
+}
+
+.w{
+  max-width: 750px;
+  color: #666666;
+  font-size: 25px;
+
+}
+
+
+.e {
+ max-width: 750px;
+  color: #666666;
+  font-size: 25px;
+ 
+
+
+
+}
 .projects-section {
   background: #555353;
 }
